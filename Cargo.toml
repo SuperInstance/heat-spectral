@@ -1,0 +1,12 @@
+[package]
+name = "heat-spectral"
+version = "0.1.0"
+edition = "2021"
+description = "Heat diffusion on graphs — equilibration time, spectral filtering, Fiedler value"
+license = "MIT"
+repository = "https://github.com/SuperInstance/heat-spectral"
+keywords = ["graph", "spectral", "diffusion", "heat-kernel", "laplacian"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+thiserror = "2"
