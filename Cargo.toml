@@ -2,7 +2,12 @@
 rust-version = "1.70"
 readme = "README.md"
 name = "heat-spectral"
-version = "0.1.0"
-edition = "2024"
+version = "0.2.0"
+edition = "2021"
+description = "Exact spectral solution of the discrete heat equation on arbitrary graphs"
+license = "MIT"
+repository = "https://github.com/SuperInstance/heat-spectral"
+keywords = ["heat", "diffusion", "spectral", "graph", "laplacian"]
+categories = ["mathematics", "science"]
 
 [dependencies]
